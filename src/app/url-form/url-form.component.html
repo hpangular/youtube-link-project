@@ -1,0 +1,35 @@
+<div class="row justify-content-center">
+   <div class="col-md-6 mg-40">
+    <form [formGroup]="urlForm" (ngSubmit)="submitForm()">
+        <div class="form-group">
+            <label>Link 1:</label>
+            <input type="text" class="form-control" formControlName="link_one" placeholder="Enter Youtube Url">
+        </div>
+        <div class="form-group">
+            <label>Link 2:</label>
+            <input type="text" class="form-control" formControlName="link_two" placeholder="Enter Youtube Url">
+        </div>
+
+        <div class="form-group">
+            <label>Link 3:</label>
+            <input type="text" class="form-control" formControlName="link_three" placeholder="Enter Youtube Url">
+        </div>
+        <div class="form-group">
+            <label>Link 4:</label>
+            <input type="text" class="form-control" formControlName="link_four" placeholder="Enter Youtube Url">
+        </div>
+
+        <div class="form-group">
+            <label>Link 5:</label>
+            <input type="text" class="form-control" formControlName="link_five" placeholder="Enter Youtube Url">
+        </div>
+        <div class="form-group">
+            <label>Link 6:</label>
+            <input type="text" class="form-control" formControlName="link_six" placeholder="Enter Youtube Url">
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full-width">SUBMIT</button>
+    </form>
+   </div>
+
+</div>
